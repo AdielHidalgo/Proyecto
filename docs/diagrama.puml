@@ -1,0 +1,71 @@
+@startuml
+
+class Mario 
+class Hongo
+class Bloque
+class Flor
+class Vida
+class Koopa
+class Enemigo{
+    +Matar
+}
+class Bowser
+class Tubo 
+class Estrella
+class Poder 
+class Plomero 
+class LuckyBlock{
+    +Romper
+}
+class Ladrillo{
+    +Romper
+}
+class Piso
+class Goomba
+class Carnivora
+class Bandera 
+class Peach 
+class Mundo {
+    +Pasar
+    +Completar
+}
+class Moneda 
+class Nube 
+class Castillo 
+class Tiempo
+class Luigi
+class Toad 
+class Amigo{
+    +Rescatar
+}
+Mario --|> Plomero 
+Luigi --|> Plomero
+Toad --|> Amigo 
+Luigi --|> Amigo 
+Mario *-- Amigo
+Peach --|> Amigo
+Goomba --|> Enemigo
+Bowser --|> Enemigo
+Koopa --|> Enemigo
+Mario *-- Enemigo
+Carnivora --|> Enemigo
+Hongo --|> Poder
+Flor --|> Poder
+Estrella --|> Poder
+Mario *-- Mundo
+Mundo *-- Bloque
+Mundo *-- Castillo
+Mundo *-- Nube
+Mundo *-- Tubo
+Mario *-- Vida
+Mundo *-- Bloque
+Piso --|> Bloque
+LuckyBlock --|> Bloque
+Ladrillo --|> Bloque
+Mario o-- Poder
+Mundo *-- Bandera
+Mario o-- Moneda
+Mundo *-- Tiempo
+Mario o-- Bloque
+
+@enduml
