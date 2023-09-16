@@ -1,23 +1,23 @@
-class Hongo
+class Piso
 
 {
 private:
     /* data */
 public:
-    Hongo
+    Piso
     (/* args */);
-    ~Hongo
+    ~Piso
     ();
 };
 
-Hongo
-::Hongo
+Piso
+::Piso
 (/* args */)
 {
 }
 
-Hongo
-::~Hongo
+Piso
+::~Piso
 ()
 {
 }

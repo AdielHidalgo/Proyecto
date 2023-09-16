@@ -1,23 +1,23 @@
-class Hongo
+class Goomba
 
 {
 private:
     /* data */
 public:
-    Hongo
+    Goomba
     (/* args */);
-    ~Hongo
+    ~Goomba
     ();
 };
 
-Hongo
-::Hongo
+Goomba
+::Goomba
 (/* args */)
 {
 }
 
-Hongo
-::~Hongo
+Goomba
+::~Goomba
 ()
 {
 }
