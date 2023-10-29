@@ -8,10 +8,10 @@ private:
     /* data */
 public:
     Naveh(/* args */) : Dibujo("naveh")
-    {}
+    {
+    }
     ~Naveh() {}
     void Actualizar()
     {
     }
 };
-    

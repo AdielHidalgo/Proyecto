@@ -8,10 +8,10 @@ public:
     ~Bandera();
 };
 
-Bandera::Bandera
-(/* args */)
+Bandera::Bandera(/* args */)
 {
 }
 
-Bandera::~Bandera(){
+Bandera::~Bandera()
+{
 }

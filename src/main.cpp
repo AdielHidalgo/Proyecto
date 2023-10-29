@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 
     Dibujo d1(1, 15, "campo");
     Dibujo d2(1, 5, "mario");
-    Dibujo d3(55,15, "campo2");
+    Dibujo d3(55, 15, "campo2");
     bool ejecucion = true;
     while (ejecucion)
     {

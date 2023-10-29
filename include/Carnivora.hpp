@@ -14,4 +14,3 @@ Carnivora::Carnivora(/* args */)
 Carnivora::~Carnivora()
 {
 }
-    
