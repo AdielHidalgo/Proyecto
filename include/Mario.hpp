@@ -1,23 +1,17 @@
-class Mario
+#pragma once
+#include <Dibujo.hpp>
+#include <Actualizable.hpp>
 
+class Naveh : public Dibujo, public Actualizable
 {
 private:
     /* data */
 public:
-    Mario
-    (/* args */);
-    ~Mario
-    ();
+    Naveh(/* args */) : Dibujo("naveh")
+    {}
+    ~Naveh() {}
+    void Actualizar()
+    {
+    }
 };
-
-Mario
-::Mario
-(/* args */)
-{
-}
-
-Mario
-::~Mario
-()
-{
-}
+    

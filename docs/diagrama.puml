@@ -38,6 +38,24 @@ class Toad
 class Amigo{
     +Rescatar
 }
+Sprite "1" *- "*" Dibujo
+Juego *-Mario
+Juego *-Ecsenario
+Ventana --o Ecsenario
+Personaje -|> Sprite
+Ventana o-- Dibujo
+Ventana o--Actualizable
+Ecsenario *-- Enemigo
+Sprite "1" *- "*" Dibujo
+Juego *-Sonic
+Juego *-Ecsenario
+Ventana --o Ecsenario
+Personaje -|> Sprite
+Ventana o-- Dibujo
+Ventana o--Actualizable
+Ecsenario *-- Enemigo
+Ecsenario *-- Flor
+Mario--|>Personaje
 Mario --|> Plomero 
 Luigi --|> Plomero
 Toad --|> Amigo 
